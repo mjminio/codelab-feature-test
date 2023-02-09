@@ -4,6 +4,14 @@ This repo contains example code for testing the functionality of the CodeLab VSC
 
 ---
 
+## How to use this repo
+
+1. Clone this repo to a machine where VSCode and CodeLab plugin is installed
+2. Open `README.md` and open the "Preview" window for Markdown files
+3. Make sure that all command buttons show properly and work as expected when clicking on them and make sure all standard Markdown elements look correct.
+
+---
+
 ## Test CodeLab Specific Commands
 
 ### `{{ execute }}` command
