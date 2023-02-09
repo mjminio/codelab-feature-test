@@ -1,0 +1,17 @@
+{
+    "Version" : "2012-10-17",
+    "Statement" : [
+       {
+          "Effect" : "Allow",
+          "Action" : [ "s3:<ActionName>", ... ],
+          "Resource" : "arn:aws:s3:::*",
+          "Condition" : { ... }
+       },
+       {
+          "Effect" : "Deny",
+          "Action" : [ "s3:<ActionName>", ... ],
+          "Resource" : "arn:aws:s3:::*",
+          "Condition" : { ... }
+       }
+    ]
+ }
